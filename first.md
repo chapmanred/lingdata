@@ -7,7 +7,7 @@
 <!-- зона заголовка html, тег <title> - строка, которую браузер отображает на вкладках над страницами, <meta> и <link> сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) -->
 
 	<head>
-		<title>Личная страница Веры Кузнецовой</title>
+		<title>Личная страница "Эльзы Рутковской"</title>
 	 	<!-- Required meta tags -->
 	 	<meta charset="utf-8">
 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,12 +30,12 @@
 <!-- div - это контейнеры - коробочки с текстом и/или графикой, которые можно вкладывать друг в друга. Пристально смотреть на теги в этой части кода не нужно -->
 			<div class="container"> 
 				<div class="navbar-header"> 
-					<a href="https://ling.hse.ru/" class="navbar-brand">Школа лингвистики НИУ ВШЭ</a> 
+					<a href="https://hum.hse.ru/" class="navbar-brand">Факультет гуманитарных наук НИУ ВШЭ</a> 
 				</div> 
 				<nav class="collapse navbar-collapse" id="bs-navbar"> 
 					<ul class="nav navbar-nav navbar-right"> 
 						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html">Страница курса</a> </li> 
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html">Страница группы</a> </li> 
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_3.html">Страница группы</a> </li> 
 <!-- поправьте номер группы в URL, если нужно (от 1 до 4) -->
 					</ul>
 				</nav> 
@@ -44,20 +44,20 @@
 
 <!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
-		<header style="background-color:plum; padding-top:70px; "> 
+		<header style="background-color:brown; padding-top:70px; "> 
 			<div class="container"> 
 				<div class="row">
 					<div class="col-md-4">
 						<br><br>
 <!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
-						<h1>Вера Кузнецова</h1>
+						<h1>Эльза Рутковская</h1>
 						<hr> <!-- это горизонтальная линия -->
-						<p><i>Человек, умеющий <b>создавать</i> HTML</b></p> 
+						<p><i>Гений, пока не миллиардер, <b>не плейбой,</i> мизантроп</b></p> 
 					</div>
 					<div class="col-md-4">
 <!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
 <!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Petrus_Christus_-_Portrait_of_a_Young_Woman_-_Google_Art_Project.jpg/368px-Petrus_Christus_-_Portrait_of_a_Young_Woman_-_Google_Art_Project.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
+<img src="https://i.imgur.com/RRHxQuI.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
 					</div>
 				</div>
 			</div>
@@ -77,27 +77,27 @@
 					</article>
 					<article>
 						<h3>Родной город</h3>
-						<p>Новосибирск</p>
+						<p>Севастополь</p>
 					</article>
 					<article>
 						<h3>Школа</h3>
 <!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста -->
-						<p>СУНЦ НГУ</p>
+						<p>Билингвальная гимназия №2</p>
 					</article>
 				</div>
 
 				<div class="col-md-6">
 					<article>
-						<h3>Тут можно написать</h3>
-						<p>Еще много много много много много много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						всего о себе</p>
+						<h3>О себе любимой</h3>
+						<p>Душой в Петербурге <br>
+						Главный сноб Севастополя <br>
+						Люблю чай и душнить <br>
+						Убеждена, что Дубки - столица мира <br>
+						Почитательница творчества pyrokinesisа <br>
+						Обожаю людей с хорошим чувством стиля <br>
+						Готова продать душу за гуманитарные науки <br>
+						Сон - лучшее, что может случиться с человеком в жизни <br>
+						Поклоняюсь русской классической литературе</p>
 					</article>
 				</div>
 
@@ -105,10 +105,8 @@
 					<h3>Я в соцсетях</h3>
 <!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
 					<ul>
-						<li>VK</li>
-						<li>Facebook</li>
-						<li>Twitter</li>
-						<li>Instagram</li>
+						<li>VK: @elyarut</li>
+						<li>Telegram: @ewww0000</li>
 					</ul>
 				</div>
 			</div>
@@ -117,7 +115,7 @@
 <!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
 		<footer class="bs-docs-footer"> 
 			<div class="container"> 
-				<p style="text-align:right; ">&copy; В. Кузнецова, 2021</p> 
+				<p style="text-align:right; ">&copy; Э. Рутковская, 2023</p> 
 			</div>
 		</footer>
 	</body>
